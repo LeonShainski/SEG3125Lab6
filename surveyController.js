@@ -46,8 +46,10 @@ module.exports = function(app){
         var fruit = readData("fruit");
         var animal = readData("animal");
         var season = readData("season");
-        res.render('showResults', {results: [color, fruit, animal, season]});
-        console.log([color, fruit, animal, season]);
+        var number = readData("number");
+        var car = readData("car");
+        res.render('showResults', {results: [color, fruit, animal, season, number, car]});
+        console.log([color, fruit, animal, season, number, car]);
     });
 
     // when a user goes to localhost:3000/niceSurvey
