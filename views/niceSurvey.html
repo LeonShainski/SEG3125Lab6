@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
     <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
   </head>
-  
+
   <body>
-	
+
 	<div class="container-md p-3 my-3 border bg-dark text-white" id="survey">
     <h1>Survey</h1>
     <form>
@@ -37,10 +37,22 @@
       </select>
       <br>
       <br>
+
+
+      <p>Please select your Favourite Season:</p>
+      <input type="radio" id="summer" name="season" value="summer">
+      <label for="summer">Summer</label><br>
+      <input type="radio" id="fall" name="season" value="fall">
+      <label for="fall">Fall</label><br>
+      <input type="radio" id="winter" name="season" value="winter">
+      <label for="winter">Winter</label><br />
+      <input type="radio" id="spring" name="season" value="spring">
+      <label for="spring">Spring</label> <br />
+
       <button type="submit" class="btn btn-warning" id="bb">Submit</button>
       <p id="thanks"></p>
     </form>
     </div>
 	<script src="/assets/action.js"></script>
   </body>
-</html> 
+</html>
